@@ -1,0 +1,233 @@
+.main-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    left: 10rem;
+padding: 20rem;
+
+}
+
+.main-bg {
+    background-image: url(../img/quantum-gradient.svg);
+    background-size: cover;
+    background-position: center center;
+    color: var(--branco);
+    
+}
+
+.minhaClasse {
+    padding: 0 0 0 20rem;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    left: 10rem;
+    
+    
+}
+
+
+.section {
+    min-height: 100vh;
+    width: 100%;
+}
+
+.white-bg {
+    background: var(--branco);
+    color: var(--cor-primaria);
+}
+
+.menu-spacing {
+    width: 100vh;
+    padding: 10rem;
+    height: 100vh;
+}
+
+
+.cabeca {
+    width: 100%;
+    float: left;
+    padding: 3% 4%;
+}
+
+
+
+
+.logo-texto  {
+    text-align: center;
+    background-color: rgb(39, 35, 35);
+    color: rgb(161, 38, 38);
+    background: url(/assets/img/momento-moto-dinno.jpg);
+    width: 100%;
+    float: left;
+    border-radius: 1rem;
+}
+
+.logo-cor {
+    color: rgb(199, 33, 33);
+}
+
+img {
+    height: 100%;
+    width: 100%;
+    max-width: auto ;
+    max-height: auto;
+    object-fit: contain;
+    
+}
+
+
+
+
+.grid-main-heading{
+    margin-bottom: 0.1px;
+}
+
+.grid-description { 
+    padding-bottom: 5rem;
+}
+
+
+
+
+
+
+.gallery-img { 
+ width: 100%;
+ height: 100%;
+ max-width: 80rem;
+ max-height: 80rem;
+
+ grid-template-rows: fr;
+ 
+ 
+}
+
+
+
+
+.botao {
+    width: 30rem;
+    height: 8rem;
+    border: 0.3rem solid red;
+    cursor: pointer;
+    font-size: 2.3rem;
+    margin-left: 5rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+.close-menu {
+  display: none;
+}
+
+
+@media (max-width: 800px) {
+    .intro-content, .grid-one {
+        grid-template-columns: 1fr;
+        padding:5rem 0 0 0;
+        display: block;
+       
+        
+        
+    }
+    
+     .minhaClasse {
+         padding: 0;
+     }
+
+
+
+
+   
+    
+    .menu {
+        bottom: 0;
+        text-align: center;
+    }
+    
+    p {
+      
+        border: 1rem  1rem red;
+        padding: 5px 5px 5px 5px;
+       
+        max-width:auto ;
+        max-height:auto;
+        padding:1rem 1rem 1rem 1rem ;
+        color: black;
+        text-align: center;
+        font-size: 2.5rem;
+        font-style:Arial;
+
+
+    }
+ 
+   
+
+    .menu-content {
+        height: 100vh;
+    }
+    
+    .menu {
+        display: none;
+
+    }
+
+
+
+
+.close-menu-label::after {
+    content: '≡';
+    position: fixed;
+    z-index: 2;
+    top: 2rem;
+    right: 2.5rem;
+    background: var(--cor-primaria);
+    color: white;
+    font-size: 3rem ;
+    line-height: 3rem;
+    width: 3rem;
+    height: 3rem;
+    text-align: center;
+    padding: 0.5rem;
+    cursor: pointer;
+
+}
+
+.close-menu:checked~.menu {
+    display: block;
+}
+.close-menu:checked~.close-menu-label::after {
+    
+    content: '✕' ;
+}
+
+.menu-spacing {
+    display: none;
+    
+}
+
+.back-to-top {
+    position: fixed;
+    bottom: 2rem;
+    right: 1rem;
+    background: rgb(0, 0, 0);
+    width: 5rem;
+    right: 2rem;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color: var(--cor-primaria);
+    font-size: 2.5rem;
+    border: 0.1rem solid var(--cor-primaria);
+}
+
+}
+
