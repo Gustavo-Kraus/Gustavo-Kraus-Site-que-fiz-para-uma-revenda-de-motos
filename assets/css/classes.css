@@ -107,11 +107,18 @@ img {
     height: 8rem;
     border: 0.3rem solid red;
     cursor: pointer;
+    text-decoration: none;
     font-size: 2.3rem;
     margin-left: 5rem;
+    background: rgb(216, 200, 200);
+    border-radius: 1rem;
+    color: red;
+    text-align: center;
+    text-decoration: none;
 }
 
-
+.botao:hover{top:-4px;box-shadow:0 4px 4px #999;
+    transition: all .2s ease-in-out}
 
 
 
