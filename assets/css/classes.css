@@ -42,10 +42,10 @@ padding: 20rem;
 }
 
 
-.cabeca {
+.cabeca img {
     width: 100%;
-    float: left;
-    padding: 3% 4%;
+    height: 500px;
+    object-fit: contain;
 }
 
 
@@ -55,7 +55,7 @@ padding: 20rem;
     text-align: center;
     background-color: rgb(39, 35, 35);
     color: rgb(161, 38, 38);
-    background: url(/assets/img/momento-moto-dinno.jpg);
+    
     width: 100%;
     float: left;
     border-radius: 1rem;
@@ -103,16 +103,16 @@ img {
 
 
 .botao {
-    width: 30rem;
-    height: 8rem;
-    border: 0.3rem solid red;
+    width: 32rem;
+    height: 7.2rem;
+    border: 0.3rem solid rgb(0, 0, 0);
     cursor: pointer;
     text-decoration: none;
-    font-size: 2.3rem;
-    margin-left: 5rem;
-    background: rgb(216, 200, 200);
+    font-size: 3rem;
+    margin:3rem;
+    background: rgb(211, 29, 23);
     border-radius: 1rem;
-    color: red;
+    
     text-align: center;
     text-decoration: none;
 }
@@ -148,7 +148,11 @@ img {
      }
 
 
-
+     .cabeca img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+     }
 
    
     
@@ -236,3 +240,44 @@ img {
 
 }
 
+.sobre {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.sobre-h3 {
+    font-size: 4rem;
+}
+
+
+.contato {
+    background-color: rgb(23, 211, 39);
+    
+    height: 55px;
+    width: 315px;
+    position: absolute;
+    right: 0;
+    bottom:2rem;
+    position: fixed;
+    border-radius: 10rem;
+}
+
+.orcamento {
+    font-size: 3.1rem;
+    font-style: Arial;
+    text-align:right ;
+    padding: 0 10px;
+    color: white;
+    
+}
+
+.logo-whats {
+    position: absolute;
+    top: 2px;
+    right: 26rem;
+     left: 10px;
+}
+
+.orcamento:hover {
+    color: red;
+}
