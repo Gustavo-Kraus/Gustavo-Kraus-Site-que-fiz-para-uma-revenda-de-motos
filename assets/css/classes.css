@@ -103,34 +103,25 @@ img {
 
 
 .botao {
-    width: 32rem;
-    height: 7.2rem;
-    border: 0.3rem solid rgb(0, 0, 0);
+    width: 30%;
+    height: 5rem;    
     cursor: pointer;
     text-decoration: none;
-    font-size: 3rem;
-    margin:3rem;
-    background: rgb(211, 29, 23);
-    border-radius: 1rem;
-    
+    font-size: 3rem;   
+    background: rgb(0, 255, 64);
+    border-radius: 1rem;   
     text-align: center;
     text-decoration: none;
+    position: absolute;
+    left: 27rem;
+    color: black;
+    
+    
 }
 
-.botao:hover{top:-4px;box-shadow:0 4px 4px #999;
-    transition: all .2s ease-in-out}
 
 
 
-
-
-
-
-
-
-.close-menu {
-  display: none;
-}
 
 
 @media (max-width: 800px) {
@@ -177,7 +168,19 @@ img {
 
     }
  
-   
+    .botao {
+        width: 85%;
+        height: 5rem;    
+        cursor: pointer;
+        text-decoration: none;
+        font-size: 3rem;   
+        background: rgb(0, 255, 64);
+        border-radius: 0.7rem;   
+        text-align: center;
+        text-decoration: none;
+        position: absolute;
+        left: 3rem;
+    }
 
     .menu-content {
         height: 100vh;
@@ -280,4 +283,17 @@ img {
 
 .orcamento:hover {
     color: red;
+}
+
+
+
+
+
+
+
+
+.separamento {
+    background: red;
+    height: 1rem;
+    width: 100%;
 }
