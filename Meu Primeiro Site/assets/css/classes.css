@@ -7,51 +7,24 @@
 }
 
 .main-content {
-    max-width: 1200px;
-    margin: 0 auto;
     display: flex;
-    padding: 5rem;
-
+    justify-content:center;
+    align-items: center;
+   margin: 1rem;
 }
 
-.minhaClasse {
-    padding: 0 0 0 20rem;
-    width: 100%;
-    max-width: 1200px;
-    margin: 0 auto;
-    left: 10rem;
-    
-    
-}
-
-.section {
-    min-height: 100vh;
-    width: 100%;
-}
-
-.white-bg {
-    background: var(--branco);
-    color: var(--cor-primaria);
-}
-
-.cabeca img {
-    width: 100%;
-    height: 500px;
-    object-fit: contain;
-}
-
-img {
-    height: 100%;
-    width: 100%;
+.cabeca-class {
+    width: 50%;
+    height: 10%;
     display: flex;
     
-}
-.grid-main-heading{
-    margin-bottom: 0.1px;
+    
 }
 
-.grid-description { 
-    padding-bottom: 5rem;
+.cabeca {
+    display: flex;
+    justify-content:center;
+    align-items: center;
 }
 
 .botao {
@@ -61,75 +34,61 @@ img {
     text-decoration: none;
     font-size: 23px;   
     background: rgb(0, 26, 255);
-       
     text-decoration: none;
-    position: absolute;
     color: black;
-    
-    
+    position: absolute;
+    text-decoration: none;
 }
 
 
 
 
 
-
 @media (max-width: 800px) {
-    .intro-content, .grid-one {
-        grid-template-columns: 1fr;
-        padding:5rem 0 0 0;
-        display: block;
-       
-        
+    .texto-descricao {
+        display: flex;
+        color:black;
+        margin: px;
         
     }
     
-     
-
-
-     .cabeca img {
-        width: 100%;
-        height: 100%;
-        object-fit: contain;
-     }
-
-   
+    .main-content {
+        max-width: 1200px;
+        margin: 0 auto;
+        align-items: center;
+        padding: 5rem;
     
-    .menu {
-        bottom: 0;
-        text-align: center;
     }
     
-    p {
-        border: 1rem  1rem red;
-        color: black;
-        text-align: center;
-        font-size: 2.5rem;
-        font-style:Arial;
-
-
+    .grid-main-heading{
+        margin-bottom: 0.1px;
     }
- 
+    
+    .grid-description { 
+        padding-bottom: 5rem;
+    }
+    
     .botao {
-        width: 80%;
-        height: 5rem;    
+        width: 70%;
+        height: 5.5rem;    
         cursor: pointer;
         text-decoration: none;
         font-size: 23px;   
         background: rgb(0, 26, 255);
-        border-radius: 0.1rem;   
+           
         text-decoration: none;
+        color: black;
         
         
     }
-
-
-    .botao-vermais {
-      padding:4rem;
+    .img-class {
+        width: 80vw;
+        height: 50vh;
     }
 
-
-    
+    .cabeca-class {
+        width: 100vw;
+    }
     
 
 
@@ -226,27 +185,3 @@ img {
     color: red;
 }
 
-
-
-
-
-
-
-
-.separamento {
-    background: red;
-    height: 1rem;
-    width: 100%;
-}
-
-
-.bilau {
-    font-size: 70rem;
-    color: red;
-    padding-left:40rem ;
-   top: 10rem;
-   display: block;
-   float: left;
-   padding-top: 30rem ;
-   font-weight: 10rem;
-}
